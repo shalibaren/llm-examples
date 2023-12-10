@@ -43,8 +43,8 @@ OPENAI_API_KEY='your key here'
 ## Run it locally
 
 ```sh
-virtualenv .venv
-source .venv/bin/activate
+python3.10 -m venv llm_recs
+source llm_recs/bin/activate 
 pip install -r requirements.txt
 streamlit run Chatbot.py
 ```
