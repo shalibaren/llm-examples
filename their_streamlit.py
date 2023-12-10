@@ -11,7 +11,7 @@ openai.api_key = st.secrets["openai_api_key"]
 
 from aiconfig import AIConfigRuntime
 
-load_dotenv()
+# load_dotenv()
 openai.api_key = os.getenv("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")
 
 
