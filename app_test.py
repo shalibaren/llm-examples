@@ -9,7 +9,7 @@ from openai.types.chat.chat_completion import ChatCompletion, Choice
 def create_chat_completion(response: str, role: str = "assistant") -> ChatCompletion:
     return ChatCompletion(
         id="foo",
-        model="gpt-3.5-turbo",
+        model="gpt-4",
         object="chat.completion",
         choices=[
             Choice(
